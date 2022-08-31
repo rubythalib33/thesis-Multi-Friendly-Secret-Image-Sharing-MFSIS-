@@ -127,6 +127,13 @@ if __name__ == '__main__':
     print(stacked_decode_friendly)
     print(stacked_decoded_image)
 
+    cv2.imwrite("assets/original_image.png", stacked_image)
+    cv2.imwrite("assets/mask.png", mask)
+    cv2.imwrite("assets/multi secret images.png", stacked_shared_image)
+    cv2.imwrite("assets/friendly multi encrypted.png", stacked_friendly_image)
+    cv2.imwrite("assets/decoded friendly multi encrypted.png", stacked_decode_friendly)
+    cv2.imwrite("assets/decoded image.png", stacked_decoded_image)
+
     cv2.imshow("original_image", stacked_image)
     cv2.imshow("mask", mask)
     cv2.imshow("multi secret images", stacked_shared_image)
