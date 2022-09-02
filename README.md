@@ -1,7 +1,10 @@
 # thesis-Multi-Friendly-Secret-Image-Sharing-MFSIS-
 
 ## Proposed Method
-(COMING SOON)
+### Sharing Procedure
+![](assets/enc.png)
+### Recovery Procedure
+![](assets/dec.png)
 
 ## Result
 ### Source Image
